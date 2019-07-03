@@ -11,7 +11,8 @@ const jsonToFirestore = async () => {
         console.log('Firebase Initialized');
 
         await firestoreService.restore('./data/foodList.json');
-        await firestoreService.restore('./data/categoryList.json');
+        //await firestoreService.restore('./data/foodDetailsList.json');
+        //await firestoreService.restore('./data/categoryList.json');
         console.log('Upload Success');
     }
     catch (error) {

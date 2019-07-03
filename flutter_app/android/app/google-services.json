@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "174622338825",
+    "firebase_url": "https://shape-fcd83.firebaseio.com",
+    "project_id": "shape-fcd83",
+    "storage_bucket": "shape-fcd83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174622338825:android:0bb6b3da5bc25c7a",
+        "android_client_info": {
+          "package_name": "com.lambreta.shape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174622338825-uc3n6osm5reblj1euph7ltqvuukfkjeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkzBOUO-LZdudXpR1307Tfnyyc7YycGrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174622338825-uc3n6osm5reblj1euph7ltqvuukfkjeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
