@@ -1,4 +1,4 @@
-import 'package:shape/config/locator.dart';
+import 'package:shape/config/util/locator.dart';
 import 'package:shape/core/enums/view_state.dart';
 import 'package:shape/core/viewmodel/base_view_model.dart';
 import 'package:shape/src/foods/model/food.dart';

@@ -21,7 +21,7 @@ class ShapeView extends StatelessWidget {
 
   Widget _createBottomNavigationBar(ShapeViewModel model) =>
       BottomNavigationBar(
-          onTap: (int index) => model.currentIndex = index,
+          onTap: (index) => model.currentIndex = index,
           type: BottomNavigationBarType.shifting,
           currentIndex: model.currentIndex,
           items: [

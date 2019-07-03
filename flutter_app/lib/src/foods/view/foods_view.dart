@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shape/config/util/constants.dart';
 import 'package:shape/config/ui/app_colors.dart';
 import 'package:shape/core/enums/view_state.dart';
 import 'package:shape/core/view/base_view.dart';
@@ -30,7 +31,7 @@ class FoodsView extends StatelessWidget {
             backgroundColor: Colors.blue,
             expandedHeight: 150.0,
             flexibleSpace: FlexibleSpaceBar(
-              background: Image.asset("assets/images/food.jpeg", fit: BoxFit.cover),
+              background: Image.asset(foodImage, fit: BoxFit.cover),
             )),
         _getFoodsList(model.foods)
       ],
